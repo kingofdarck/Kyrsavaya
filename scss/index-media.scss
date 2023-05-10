@@ -1,0 +1,132 @@
+@import "./variables";
+@import "./mixins";
+
+@media (max-width: 1000px) {
+    .main {
+        flex-direction: column;
+
+        .main__images {
+            align-self: flex-end;
+        }
+
+        .main__present {
+            display: none;
+        }
+
+        .main__img {
+            max-width: 100%;
+            margin-right: 0;
+        }
+
+        .orange-spot {
+            display: none;
+        }
+
+        .blue-spot {
+            max-width: 200px;
+            top: 580px;
+            right: 420px;
+        }
+
+        .pink-spot {
+            top: 775px;
+            right: 520px;
+        }
+
+        .red-spot {
+            top: 230px;
+            right: 10px;
+        }
+
+        .skyblue-spot {
+            top: 340px;
+            right: 450px;
+        }
+    }
+
+    .description {
+        .description__content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .description__items {
+            margin-top: 60px;
+            margin-left: 0;
+        }
+
+        .description__item div>.description__item-img {
+            width: 30px;
+            margin-right: 45px;
+            margin-top: 0px;
+        }
+    }
+
+    .discounts {
+        .discounts__items {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+        }
+
+        .discount {
+            margin-right: 0;
+            margin-top: 60px;
+        }
+    }
+
+    .process {
+        .process__points {
+            margin-top: 80px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .point {
+            padding-right: 0;
+            padding-left: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .point__img {
+            margin-top: 20px;
+            margin-right: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .point__line {
+            z-index: -1;
+            left: 25px;
+            bottom: 0;
+            width: 3px;
+            height: 130%;
+        }
+
+        .point__line-last {
+            height: 85%;
+        }
+
+        .point__text {
+            max-width: 280px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        .main__spot {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 450px) {
+    .process {
+        .point__img {
+            margin-right: 20px;
+        }
+    }
+}

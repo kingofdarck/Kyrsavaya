@@ -1,0 +1,90 @@
+@media (max-width: 1165px) {
+  .equipment {
+    padding-bottom: 1350px;
+  }
+  .equipment .equipment__text {
+    text-align: left;
+  }
+  .equipment .equipment__descr {
+    text-align: left;
+    max-width: 400px;
+    margin-bottom: 40px;
+  }
+  .equipment .equipment__img {
+    right: 20px;
+    top: 300px;
+  }
+  .equipment .equipment__svg {
+    display: none;
+  }
+  .equipment .equipment__item-marker {
+    top: 500px;
+    left: 0px;
+  }
+  .equipment .equipment__item-armor {
+    top: 900px;
+  }
+  .equipment .equipment__item-armor .equipment__hand-pointer {
+    display: none;
+  }
+  .equipment .equipment__item-gloves {
+    top: 950px;
+    right: 50px;
+  }
+  .equipment .equipment__item-mask {
+    top: 1310px;
+    left: 20px;
+    max-width: 280px;
+  }
+  .equipment .equipment__item-mask img {
+    max-width: 100%;
+  }
+  .equipment .equipment__item-mask figcaption {
+    position: relative;
+    top: 20px;
+  }
+  .equipment .equipment__item-granade {
+    display: block;
+  }
+  .equipment .equipment__item-granade img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 700px) {
+  .equipment .equipment__img {
+    max-width: 70%;
+    top: 320px;
+    right: 0;
+  }
+}
+@media (max-width: 600px) {
+  .equipment {
+    padding-bottom: 50px;
+  }
+  .equipment .equipment__items {
+    position: static;
+  }
+  .equipment .equipment__item {
+    position: static;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .equipment .equipment__item figcaption {
+    max-width: 100%;
+  }
+  .equipment .equipment__img {
+    max-width: 100%;
+    position: static;
+    margin-top: 50px;
+  }
+  .equipment .equipment__item-marker {
+    margin-bottom: 0;
+  }
+  .equipment .equipment__item-armor figcaption {
+    left: 0;
+  }
+  .equipment .equipment__item-mask {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=equipment-media.css.map */
